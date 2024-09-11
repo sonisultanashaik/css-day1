@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     *{
+        margin: 0PX;
+        padding: 0PX;
+     }
+     .fixed{
+        position:sticky ;
+        height: 40px;
+        background-color: purple;
+        top: 0;
+        width: 98.6vw;
+        padding: 3px;
+    }
+     ul{
+    list-style-type: none;
+     }
+     ul li{
+        float: left;
+        width:354px;
+        height: 50px;
+        background-color: palevioletred;
+        text-align: left;
+        line-height: 50px;
+     }
+     ul li a{
+        text-decoration: none;
+        color: #dddbdb;
+        display: block;
+     }
+     ul li a:hover{
+        background-color: rgb(137, 77, 3);
+        color: aqua;
+     }
+     ul li ul li{
+        display: none;
+     }
+     ul li:hover ul li{
+      display: block;
+     }
+        
+    </style>
+</head>
+<body>
+    <div class="fixed">
+    <p class="cf"><H2><b> BR Architecture </b></H2></p>                                                                                  
+      </div>
+    <div class="container">
+        <div>
+        <img src="https://tinyjpg.com/images/social/website.jpg" alt="" width="99%" height="550px">
+        <div>
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Tutorials</a>
+        <ul>
+            <li><a href="">1.HTML</a></li>
+            <li><a href="">2.CSS</a></li>
+            <li><a href="">3.JAVA SCRIPT</a></li>
+            <li><a href="">4.SQL</a></li>
+            <li><a href="">5.PYTHON</a></li>
+            <li><a href="">6.JAVA</a></li>
+
+        </ul>
+        
+        </li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Contact Us</a></li>
+    </ul>
+</body>
+</html>
